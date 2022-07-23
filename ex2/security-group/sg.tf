@@ -24,3 +24,7 @@ resource "aws_security_group" "allow_openssh" {
     Name = "allow_openssh"
   }
 }
+
+output "SGID" {
+  value = aws_security_group.allow_openssh.id
+}
