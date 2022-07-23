@@ -7,5 +7,5 @@ output "a"{
 }
 
 output "x"{
-  value = "Value of a = %{var.a}"
+  value = "Value of a = ${var.a}"
 }
