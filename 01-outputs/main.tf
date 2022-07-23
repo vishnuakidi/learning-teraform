@@ -3,5 +3,5 @@ output "sample" {
 }
 
 output "sample2" {
-  vale = "Hello Vishnu"
+  value = "Hello Vishnu"
 }
