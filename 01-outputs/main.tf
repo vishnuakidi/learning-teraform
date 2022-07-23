@@ -5,5 +5,3 @@ output "sample" {
 output "sample2" {
   value = "Hello Vishnu"
 }
-##
-#################
